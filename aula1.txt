@@ -1,0 +1,31 @@
+Git e Github
+
+Git é o software e vc baixa no seu pc
+várias pessoas conseguem usar ao mesmo tempo
+Github é a ferramenta para jogar seu arquivo na nuvem
+
+commit - comando para lançar o documento para o github
+
+git add . 					# adiciona todos os arquivos que vc editou
+git commit -m "mensagem"	# onde "mensagem" é  qualquer mensagem que vc queira
+git push					# depois vc digita esse comando para finalizar
+
+Branch - usado para editar coletivamente um mesmo arquivos
+neste caso, as alterações feitas ficam em versões paralelas, as alterações precisam ser aprovadas para entrar no arquivo finais
+
+git branch # verifica branch atual
+git branch nome-branch
+git checkout nome-branch
+
+git config --global user.name "aliceassmar"
+git config --global user.email "aliceassmar92@gmail.com"
+
+git init
+git add .
+git commit -m "Primeiro commit"
+git branch -M main # para renomear o branch
+git remote add origin "https://github.com/aliceassmar/adaptelas.git"
+git push -u origin main
+
+
+
