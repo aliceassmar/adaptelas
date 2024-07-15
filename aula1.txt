@@ -1,4 +1,4 @@
-Git e Github
+# Aula 1 - Git e Github
 
 Git é o software e vc baixa no seu pc
 várias pessoas conseguem usar ao mesmo tempo
@@ -31,6 +31,3 @@ git push -u origin main
 
 # Utilizar sempre esse comando para vincular a branch
 git push -u origin "main"
-
-
-

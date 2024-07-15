@@ -1,0 +1,70 @@
+# Aula 2 - Fundamentos do HTML
+# Replit - fazer uma continha e criar um Repl HTML, CSS, JS
+isso é só para caso não consiga usar o VScode
+
+# HTML-Linguagem de marcaçao de hipertexto (HTML) é uma Linguagem de computador que compõe a maior parte das páginas da internet
+
+# Tags HTML
+# São abertura <> e fechamento </>
+
+# Para criar arquivo html é só colocar extensão .html
+ctrl+s #para salvar
+! # já coloca um código/estrutura padrão com as Tags
+
+# Tags de estrutura
+colocar suas tags com o nome das funçoes delas. Nomes que tenham significado (html semântico)
+<header></header>
+<nav></nav> # tag de navegação
+<main></main> # conteúdo principal
+<section></section> # colocar um texto menor, colocar um texto dentro dela
+<div> </div> # define uma divisão da páginas
+<footer></footer>
+
+
+# tags padrões
+<!DOCTYPE html> # versão do html
+<html></html> # demarca o documento, tudo que tiver dentro dela vai ser interpretado pelo navegador
+<head></head> # Trazer a informação para a gente
+<title></title> # título da guia, do navegador
+<meta/> # metadados
+<body><body/> # Tudo que for fazer no site
+<html lang="en"> # pt-BR para especificar o pt do Brasil
+
+# tags de titulo
+<h1> #maior ordem de prioridade - usar apenas 1 h1 pq e o título principal - boas práticas
+|
+<h6> #menor ordem de prioridade
+
+<p></p> # paragrafo - texto
+<span></span> # paquenas informaçoes - legenda de ft por exemplo
+<b></b> #negrito
+<i></i> #italico
+<br></br> #break
+<!-- adicionar comentario no html-->
+
+tags de link - liga 2 documentos
+<a href=""></a> #tem q colocar o link completo, com http e tudo, dentro das aspas
+<a href="" target="_blank"></a> # abre em outra guia
+<a href="./"></a> # abre outra pagina vinculada ao seu site, pq elas sao criadas em arquivos separados
+
+tag multimidea
+<img></img>
+<img src="./imagem.jpg" alt=""> #src=source alt=acessibilidade - exibe por escrito o q seria a imagem, caso ela n apareça, tipo uma legenda oculta
+ 
+tag de listas
+<ol></ol> # são tópicos ordenados
+<li></li> # ítens de uma lista
+<ul></ul> # lista não ordenada, aparece só os bullet points
+
+# lista de deescrição?
+
+# tags únicas vs tags compostas - unica faz uma função só: e.g. <br>; composta tem mais de um argumento: e.g. tag link
+# tags block vs tag inline
+
+<body style="background-color: _blue;"> #pq a imagem que o prof quer é azul. Só usar isso para essa atividade, depois disso, não usar mais.
+
+
+
+
+
+
