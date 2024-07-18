@@ -1,0 +1,54 @@
+* { 
+    font-family: "Quicksand", sans-serif;
+    margin: 0;
+}
+
+body{
+    color: white;
+    background-color: #610588;
+}
+nav{
+    padding: 1rem 0 1rem 4.5rem;;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.menu a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.space{
+    padding: 1rem 0;
+}
+
+header>h1 { 
+    color: #610588;
+    font-weight: bold;
+    text-align: center;
+}
+
+#main {
+    color: #610588;
+    font-weight: 400;
+    background-color: #CAADE6;
+    font-size: 1.5rem;
+    padding: 4rem;
+}
+
+.footer {
+    padding: 4rem;
+    text-align: center;
+    font-weight: 300;
+    font-size: 1.2rem;
+}
+
+.copyright {
+    background-color: #aa79dc;
+    font-weight: 300;
+    padding: 1rem;
+    text-align: center;
+}
