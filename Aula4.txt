@@ -1,0 +1,51 @@
+Displays css
+
+É uma das propriedades básicas de todo elemento html
+# dá para usar as funções: width and height para editar a área de trabalho
+# block - html tem por padrão o display block - uma div abaixo do outro
+# ctrl + shift + i windows
+# cmd + shift + i mac
+
+# Displays inline
+    # display um ao lado do outro
+    # span é um exemplo de elemento inline (enquanto houver espaço, eles vão aparecer um ao lado do outro)
+
+# Display flex (Flexbox)
+    # Hé propriedades que são declaradas n elemento-pai e que são declaradas nos elementos-filhos
+    # Flex-direction - Estabelece o eixo principal, definindo a direção em que os itens são alinhados no container.
+        # elemento-pai
+        # elemento - filha
+# Na prática - flex css
+.container{
+    display: flex;
+    flex-direction: row-reverse; # organiza a linha
+    flex-direction: column; # organiza em coluna
+}
+
+# flex-wrap - quebrar o texto quando chegar no tamanho máximo da linha (ai continua na próxima linha) - nowrap é padrão
+    # quebra - flex-wrap: wrap;
+    # Não quebra - # quebra - flex-wrap: nowrap;
+    # quebra - flex-wrap: wrap-reverse;
+
+# Flexbox - justify-content - define o alinhamento dos itens ao longo do eixo principal
+    # flex-start
+    # flex-end
+    # space-between
+    # space-around
+    # space - evenly
+
+# Flexbox - align-items - funciona no eixo transversão
+    # flex-start
+    # flex-end
+    # center
+    # baseline
+    # stretch
+
+# Flexbox - order - usado no elemento filho, e não na própria div
+
+# Display grid - manipula usando linhas e colunas - grids
+
+# Display none - retira o layout da página
+
+
+

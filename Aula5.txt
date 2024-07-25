@@ -1,0 +1,19 @@
+# Responsividade de Site
+
+# Um site que é capaz de funcionar em tdos os tipos de tela
+# design stático - só se aequa a um tipo de tela
+
+# Design responsivo - mesmo código que o estático, o layout se adequa
+
+# O CSS possui dois principais tipos
+# unidade de medida responsiva
+    # porcentagem - tamanho variável com base da sua div pai.
+    # em - usada normalmnte para definir tamanho da fonte. Varia de acordo com a div pai. O tamanho da fiv filha vai ser maior que a fonte da div pai de acordo com o valor estabelecido
+    # rem (root em)- varia de acordo com a fonte padrão HTML
+    # vh (viewport height) - 1% da altura do navegador do usuário ;   # vw (viewport width) - 1% da largura do navegador do usuário
+    # vmin - 1% do menor valor ente a largura e altura ; vmax - 1% do maior valor entre a largura e altura do navegador
+    
+# Media query
+    # É o mais importante quando se trata de Responsividade no CSS
+    # A partir dele que o conteúdo do site poderá se adaptar de forma precisa a aqualquer tela em que for acessado.
+    

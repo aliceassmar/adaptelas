@@ -11,22 +11,22 @@ git commit -m "mensagem"	# onde "mensagem" é  qualquer mensagem que vc queira
 git push					# depois vc digita esse comando para finalizar
 
 Branch - usado para editar coletivamente um mesmo arquivos
-neste caso, as alterações feitas ficam em versões paralelas, as alterações precisam ser aprovadas para entrar no arquivo finais
+neste caso, as alterações feitas ficam em versões paralelas, as alterações precisam ser aprovadas para entrar no arquivo final
 
 git branch # verifica branch atual
 git branch nome-branch # cria uma nova branch
 git checkout nome-branch # troca para a branch acessória
-git checkout -b nome-branch # ccria e troca a branch
+git checkout -b nome-branch # cria e troca a branch
 
 # Primeiro passo para vincular sua conta github
-git config --global user.name "aliceassmar"
-git config --global user.email "aliceassmar92@gmail.com"
+git config --global user.name "[usuário]"
+git config --global user.email "[emaildousuário]@gmail.com"
 
 git init
 git add .
 git commit -m "Primeiro commit"
 git branch -M main # para renomear o branch
-git remote add origin "https://github.com/aliceassmar/adaptelas.git"
+git remote add origin "https://github.com/[usuário]/adaptelas.git"
 git push -u origin main
 
 # Utilizar sempre esse comando para vincular a branch
