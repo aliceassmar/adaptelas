@@ -47,5 +47,5 @@ Displays css
 
 # Display none - retira o layout da página
 
-
+https://acoustic-ocelot-1ad.notion.site/Layout-com-CSS-ef6656c7f8ba4d95a2c5973a9088b290
 
