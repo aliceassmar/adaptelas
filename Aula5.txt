@@ -1,7 +1,7 @@
 # Responsividade de Site
 
 # Um site que é capaz de funcionar em tdos os tipos de tela
-# design stático - só se aequa a um tipo de tela
+# design estático - só se adequa a um tipo de tela
 
 # Design responsivo - mesmo código que o estático, o layout se adequa
 

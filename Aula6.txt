@@ -1,0 +1,58 @@
+# Aula 6 - Fundamentos do JavaScript
+
+# É uma linguagem de programação para desenvolver páginas interativas da internet. 
+# criado para fazer a interação usuário - website.
+
+# Java e JavaScript são coisas diferentes
+
+# Iniciando com JavaScript
+    # Executado diretamente no console do navegador com um arquivo HTML
+    # Inspeciona a pag e vai na opção "console" e já pode começar a usar
+    # VScode é outra opção
+
+# No VScode vc digita a tag <script></script> e já pode começar a programar - mas essa não é uma boa prática de programação
+# Tem que ter um arquivo separado para o JavaScript .js
+
+# Sintaxe do JavaScript
+    # Declarando uma variável
+        let [nome] = "João"     # Feito em bloco, não é tão fácil declarar em todo lugar do código
+        var [curso] = "Direito" # Cabe em qualquer lugar
+        const [idade] = 20      # Feito em bloco, não é tão fácil declarar em todo lugar do código
+    # Tipos de  dados
+        string - texto com aspas duplas
+        number - número
+        boolean - yes/no, true/false
+        objeto - armazena mais de uma informação
+        array - armazena uma sequência de dados
+
+# Para comentar no JavaScript é só colocar o //
+
+# Operadores
+    # = - Usado para declaração de variável
+    # == - valor de um é igual ao do outro
+    # != - Valor de um é diferente do outro
+    # > - maior que
+    # < - menor que
+    # + - soma
+    # - - subtração
+    # === - igual ou do mesmo tipo 
+    # >= ou <= - maior ou menor igual
+    # % - resto da divisão. 
+Retorna integer ou decimal (Na verdade só retorna 0 ou 1 - 0 se não tiver resto e 1 se tiver, mas não informa qual é a diferença)
+    # / - divisão
+    # ** - elevado a
+    # && - 'e' as duas condições são verdadeiras
+    # || - 'ou' ou uma ou outra condição é verdadeira. Pelo menos uma delas tem que ser verdadeira
+
+# Lógica de programação - transformar problemas grandes em pequenas etapas
+# Condicionais e loops
+# Funções em JavaScript
+    # Funções declarativas
+    # Funções anônimas
+    # Arrow functions - => para indicar o que a função vai fazer
+        const soma = (a, b) => a + b;
+        console.log(soma(2, 3)); # resultado tem que ser 5
+
+
+
+
